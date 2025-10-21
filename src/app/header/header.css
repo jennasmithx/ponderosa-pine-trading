@@ -9,7 +9,6 @@ body {
 .hero-section {
   background: linear-gradient(135deg, #0d1b5e, #273b9a);
   min-height: 50vh;
-  
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.849);
 }
 
