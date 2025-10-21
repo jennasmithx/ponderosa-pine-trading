@@ -1,0 +1,19 @@
+.text-deepblue { color: #0d3b66; }
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+
+img.img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.border { border-color: #dee2e6 !important; }
+.shadow-sm { box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+
+.img-fluid {
+    height: 100cm;
+    width: 400px;
+}

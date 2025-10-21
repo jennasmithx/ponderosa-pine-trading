@@ -1,0 +1,19 @@
+/* Navbar */
+.bg-deepblue {
+  background-color: #0d1b5e;
+}
+.navbar-brand {
+  letter-spacing: 1px;
+}
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  background-color: #fff;
+  color: #0d1b5e;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
