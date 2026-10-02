@@ -378,8 +378,7 @@ strong {
 
 /* Facts strip along the bottom of the hero */
 .stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
