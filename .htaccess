@@ -1,0 +1,8 @@
+# Keep old links working: /about, /projects and /contact (from the previous
+# version of the site) now point to about.html, projects.html and contact.html.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(about|projects|contact)/?$ /$1.html [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /index.html
