@@ -379,7 +379,7 @@ strong {
 /* Facts strip along the bottom of the hero */
 .stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -407,18 +407,13 @@ strong {
   color: rgba(255, 255, 255, 0.7);
 }
 
-@media (max-width: 760px) {
-  .stats {
-    grid-template-columns: 1fr 1fr;
+@media (max-width: 560px) {
+  .stat + .stat {
+    padding-left: 1rem;
   }
 
-  .stat:nth-child(3) {
-    padding-left: 0;
-    border-left: 0;
-  }
-
-  .stat:nth-child(n + 3) {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  .stat strong {
+    font-size: 2rem;
   }
 }
 
