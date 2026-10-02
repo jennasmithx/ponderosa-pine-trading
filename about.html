@@ -7,12 +7,19 @@
   <meta name="description" content="Ponderosa Pine Trading 26CC: third-generation civil engineering contractors based in Shelly Beach, KZN.">
   <meta name="theme-color" content="#0b1a5c">
   <link rel="icon" type="image/png" href="pptlogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="brand">Ponderosa Pine Trading</a>
+      <a href="index.html" class="brand">
+        <span class="brand-name">Ponderosa Pine Trading</span>
+        <span class="brand-sub">Civil Engineering Contractors</span>
+      </a>
       <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </button>
@@ -26,35 +33,75 @@
   </header>
 
   <main>
-    <section class="page-header">
-      <div class="container narrow center">
-        <h1>About Us</h1>
-        <p>
-          Ponderosa Pine Trading 26CC is a proud third-generation civil engineering company based in
-          Shelly Beach, KZN. Established originally in Johannesburg under the name <em>Dick Smith</em>,
-          our expertise spans decades across South Africa and beyond.
-        </p>
+    <section class="page-header header-wa0018">
+      <div class="container">
+        <div class="page-header-copy">
+          <p class="eyebrow">About us</p>
+          <h1>Three generations of building</h1>
+          <p>Ponderosa Pine Trading 26CC is a proud third-generation civil engineering company based in Shelly Beach, KZN, with expertise spanning decades across South Africa and beyond.</p>
+        </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container split">
-        <div>
-          <h2>Our Journey</h2>
+        <div class="reveal">
+          <p class="eyebrow">Our journey</p>
+          <h2>From Johannesburg to the South Coast</h2>
           <p>
-            Since 1976, after relocating our offices to Phalaborwa, we have served regions including
-            Venda, Gazankulu, Lebowa, Kruger National Park, Mozambique, and surrounding areas. Our
-            long-standing presence demonstrates commitment, expertise, and reliability in every project
-            we undertake.
+            Established originally in Johannesburg under the name <em>Dick Smith</em>, the business has
+            been passed down through three generations. Since 1976, after relocating our offices to
+            Phalaborwa, we have served regions including Venda, Gazankulu, Lebowa, Kruger National Park,
+            Mozambique, and surrounding areas.
           </p>
-          <h2>Our Expertise</h2>
+          <p>
+            Our long-standing presence demonstrates commitment, expertise, and reliability in every
+            project we undertake.
+          </p>
+        </div>
+        <div class="photo-frame reveal">
+          <img src="images/IMG-20251012-WA0070.jpg" alt="Concrete mixer truck on site during a night pour" width="600" height="750">
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="timeline-when">The beginning</span>
+            <h3>Johannesburg</h3>
+            <p>Founded as <em>Dick Smith</em>, working across the Cape, Free State, Natal and Transvaal.</p>
+          </li>
+          <li class="reveal" style="transition-delay: 0.1s">
+            <span class="timeline-when">1976</span>
+            <h3>Phalaborwa</h3>
+            <p>Offices relocated, serving Venda, Gazankulu, Lebowa, the Kruger National Park and Mozambique.</p>
+          </li>
+          <li class="reveal" style="transition-delay: 0.2s">
+            <span class="timeline-when">Today</span>
+            <h3>Shelly Beach, KZN</h3>
+            <p>Third generation, delivering major projects for NPC, Idwala Carbonates, Rossmin Mine and Overport Agri.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">Our expertise</p>
+          <h2>What we build</h2>
           <p>
             We specialize in civil engineering construction including retaining walls, crusher bases,
             columns, beams, suspended slabs, thickeners, reservoirs, concrete roads, weighbridges, silo
             bases, as well as residential and commercial buildings. Each project is executed with
             precision, safety, and quality as our guiding principles.
           </p>
-          <h2>Our Experience</h2>
+        </div>
+        <div class="reveal">
+          <p class="eyebrow">Our experience</p>
+          <h2>Who we build for</h2>
           <p>
             Over the past 18 years, we have successfully completed projects locally at
             <strong>NPC</strong>, <strong>Idwala Carbonates</strong>, and <strong>Rossmin Mine</strong>,
@@ -62,24 +109,36 @@
             versatility and reliability across both industrial and commercial sectors.
           </p>
         </div>
-        <img class="feature-photo" src="images/IMG-20251012-WA0070.jpg" alt="Concrete mixer truck on site during a night pour" width="600" height="600">
       </div>
     </section>
 
-    <section class="section alt">
-      <div class="container card-grid">
-        <article class="card center">
+    <section class="section dark">
+      <div class="container values">
+        <article class="value reveal">
           <h3>Our Mission</h3>
           <p>To deliver world-class civil engineering solutions with integrity, quality, and efficiency, enhancing communities and industries alike.</p>
         </article>
-        <article class="card center">
+        <article class="value reveal" style="transition-delay: 0.1s">
           <h3>Our Vision</h3>
           <p>To be recognized as South Africa’s leading civil engineering contractor, known for innovation, reliability, and excellence in every project.</p>
         </article>
-        <article class="card center">
+        <article class="value reveal" style="transition-delay: 0.2s">
           <h3>Our Values</h3>
           <p>Integrity, Safety, Excellence, Sustainability, and Commitment — the core principles guiding all our operations.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner reveal">
+        <div>
+          <h2>Planning a project?</h2>
+          <p>Talk to us about your next civil works, from foundations to full builds.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="tel:+27827804051" class="btn">Call 082 780 4051</a>
+          <a href="contact.html" class="btn btn-ghost">Send a Message</a>
+        </div>
       </div>
     </section>
   </main>

@@ -7,12 +7,19 @@
   <meta name="description" content="Ponderosa Pine Trading 26CC: third-generation civil engineering contractors based in Shelly Beach, KZN. Foundations, retaining walls, thickeners, reservoirs, concrete roads and more.">
   <meta name="theme-color" content="#0b1a5c">
   <link rel="icon" type="image/png" href="pptlogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
-<body>
+<body class="home">
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="brand">Ponderosa Pine Trading</a>
+      <a href="index.html" class="brand">
+        <span class="brand-name">Ponderosa Pine Trading</span>
+        <span class="brand-sub">Civil Engineering Contractors</span>
+      </a>
       <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </button>
@@ -28,101 +35,189 @@
   <main>
     <section class="hero">
       <div class="container hero-inner">
-        <p class="eyebrow">Ponderosa Pine Trading 26CC</p>
-        <h1>Civil Engineering Contractors</h1>
-        <p class="lead">
-          A proud third-generation company now based in Shelly Beach, KZN. Originally established in
-          Johannesburg under the name <em>Dick Smith</em>, our expertise spans decades across the Cape,
-          Free State, Natal, and Transvaal.
-        </p>
-        <p>
-          Since relocating to Phalaborwa in 1976, we’ve served regions including Venda, Gazankulu,
-          Lebowa, the Kruger National Park, and Mozambique.
-        </p>
-        <div class="hero-actions">
-          <a href="projects.html" class="btn btn-light">View Our Projects</a>
-          <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+        <div class="hero-copy">
+          <p class="eyebrow">Shelly Beach, KZN</p>
+          <h1>Built on <span>three generations</span> of civil engineering</h1>
+          <p>
+            Ponderosa Pine Trading 26CC builds the foundations, structures and concrete works that
+            South African industry runs on, with expertise spanning the Cape, Free State, Natal,
+            Transvaal and beyond.
+          </p>
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-amber">View Our Projects</a>
+            <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>3rd</strong><span>Generation family firm</span></div>
+          <div class="stat"><strong>1976</strong><span>Moved to Phalaborwa</span></div>
+          <div class="stat"><strong>18+</strong><span>Years of major projects</span></div>
+          <div class="stat"><strong>4</strong><span>Major industrial clients</span></div>
         </div>
       </div>
     </section>
 
+    <section class="clients" aria-label="Clients">
+      <div class="container clients-inner">
+        <span class="clients-label">Trusted by</span>
+        <span class="clients-name">NPC</span>
+        <span class="clients-name">Idwala Carbonates</span>
+        <span class="clients-name">Rossmin Mine</span>
+        <span class="clients-name">Overport Agri</span>
+      </div>
+    </section>
+
     <section class="section">
-      <div class="container narrow center">
-        <h2>Our Expertise</h2>
-        <p>
-          We specialize in comprehensive civil engineering construction, from retaining walls and
-          crusher bases to thickeners, reservoirs, and commercial or residential builds. Our reputation
-          is built on precision, reliability, and craftsmanship.
-        </p>
-        <p>
-          Over the past 18 years, we have proudly completed major civil projects for
-          <strong>NPC</strong>, <strong>Idwala Carbonates</strong>, and <strong>Rossmin Mine</strong>
-          locally, as well as projects in the Western Cape for <strong>Overport Agri</strong>.
-        </p>
+      <div class="container split">
+        <div class="reveal">
+          <p class="eyebrow">Who we are</p>
+          <h2>Precision, reliability &amp; craftsmanship</h2>
+          <p>
+            Originally established in Johannesburg under the name <em>Dick Smith</em>, we’re a proud
+            third-generation company now based in Shelly Beach, KZN. Since relocating to Phalaborwa in
+            1976, we’ve served regions including Venda, Gazankulu, Lebowa, the Kruger National Park, and
+            Mozambique.
+          </p>
+          <p>
+            Over the past 18 years, we have proudly completed major civil projects for
+            <strong>NPC</strong>, <strong>Idwala Carbonates</strong>, and <strong>Rossmin Mine</strong>
+            locally, as well as projects in the Western Cape for <strong>Overport Agri</strong>.
+          </p>
+          <a href="about.html" class="btn">More About Us</a>
+        </div>
+        <div class="photo-frame reveal">
+          <img src="images/IMG-20251012-WA0070.jpg" alt="Concrete mixer truck on site during a night pour" width="600" height="750" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="eyebrow">What we do</p>
+          <h2>Our Expertise</h2>
+          <p>
+            Comprehensive civil engineering construction, from retaining walls and crusher bases to
+            thickeners, reservoirs, and commercial or residential builds.
+          </p>
+        </div>
+        <div class="services">
+          <article class="service reveal" style="transition-delay: 0.0s">
+            <span class="service-num">01</span>
+            <h3>Foundations &amp; Plant Bases</h3>
+            <p>Crusher bases, mill and silo foundations, and bag filter bases built for heavy industrial loads.</p>
+          </article>
+          <article class="service reveal" style="transition-delay: 0.1s">
+            <span class="service-num">02</span>
+            <h3>Retaining Walls</h3>
+            <p>Reinforced concrete retaining walls for plants, quarries and sites of every size.</p>
+          </article>
+          <article class="service reveal" style="transition-delay: 0.2s">
+            <span class="service-num">03</span>
+            <h3>Thickeners &amp; Reservoirs</h3>
+            <p>Water-retaining concrete structures for mining and processing operations.</p>
+          </article>
+          <article class="service reveal" style="transition-delay: 0.0s">
+            <span class="service-num">04</span>
+            <h3>Structural Concrete</h3>
+            <p>Columns, beams and suspended slabs, formed and poured with precision.</p>
+          </article>
+          <article class="service reveal" style="transition-delay: 0.1s">
+            <span class="service-num">05</span>
+            <h3>Concrete Roads &amp; Weighbridges</h3>
+            <p>Hard-wearing concrete roads and weighbridges for heavy vehicle traffic.</p>
+          </article>
+          <article class="service reveal" style="transition-delay: 0.2s">
+            <span class="service-num">06</span>
+            <h3>Residential &amp; Commercial</h3>
+            <p>Homes and commercial buildings, delivered with the same care as our industrial work.</p>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section alt">
       <div class="container">
-        <h2 class="center">Our Completed Projects</h2>
-      <div class="card-grid">
-        <article class="card">
-          <h3>Idwala</h3>
-          <ul class="check-list">
-            <li>New 200C Plant</li>
-            <li>Sorting Shed</li>
-            <li>Loesche Mill Foundation</li>
-            <li>Retaining Walls &amp; Concrete Roads</li>
-            <li>Thickener</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>NPC</h3>
-          <ul class="check-list">
-            <li>Liquid Alternate Fuels Civils</li>
-            <li>Tyre Shredding Project</li>
-            <li>Quarry Trestle Foundations</li>
-            <li>New Bag Filter Bases</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Rossmin</h3>
-          <ul class="check-list">
-            <li>Ball &amp; Chinese Mill Foundations</li>
-            <li>Various Silo Foundations</li>
-            <li>New Sorter Foundations</li>
-            <li>Retaining Walls</li>
-          </ul>
-        </article>
-      </div>
+        <div class="section-head center reveal">
+          <p class="eyebrow">Track record</p>
+          <h2>Completed Projects</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card reveal" style="transition-delay: 0.0s">
+            <h3>Idwala</h3>
+            <ul class="check-list">
+              <li>New 200C Plant</li>
+              <li>Sorting Shed</li>
+              <li>Loesche Mill Foundation</li>
+              <li>Retaining Walls &amp; Concrete Roads</li>
+              <li>Thickener</li>
+            </ul>
+          </article>
+          <article class="card reveal" style="transition-delay: 0.1s">
+            <h3>NPC</h3>
+            <ul class="check-list">
+              <li>Liquid Alternate Fuels Civils</li>
+              <li>Tyre Shredding Project</li>
+              <li>Quarry Trestle Foundations</li>
+              <li>New Bag Filter Bases</li>
+            </ul>
+          </article>
+          <article class="card reveal" style="transition-delay: 0.2s">
+            <h3>Rossmin</h3>
+            <ul class="check-list">
+              <li>Ball &amp; Chinese Mill Foundations</li>
+              <li>Various Silo Foundations</li>
+              <li>New Sorter Foundations</li>
+              <li>Retaining Walls</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <h2 class="center">Project Gallery</h2>
-      <div class="gallery">
-        <button type="button" class="gallery-item">
-          <img src="images/IMG-20251012-WA0039.jpg" alt="Underside of a reinforced concrete beam and slab structure" loading="lazy" width="400" height="300">
-        </button>
-        <button type="button" class="gallery-item">
-          <img src="images/IMG-20251012-WA0026.jpg" alt="Concrete pump boom placing concrete on an industrial site" loading="lazy" width="400" height="300">
-        </button>
-        <button type="button" class="gallery-item">
-          <img src="images/IMG-20251012-WA0031.jpg" alt="Tall concrete columns and beams supporting plant equipment" loading="lazy" width="400" height="300">
-        </button>
-        <button type="button" class="gallery-item">
-          <img src="images/IMG-20251012-WA0005.jpg" alt="Multi-level concrete frame structure against a blue sky" loading="lazy" width="400" height="300">
-        </button>
-        <button type="button" class="gallery-item">
-          <img src="images/IMG-20251012-WA0069.jpg" alt="Crew working on a reinforced concrete retaining wall" loading="lazy" width="400" height="300">
-        </button>
-        <button type="button" class="gallery-item">
-          <img src="images/IMG-20251012-WA0062.jpg" alt="Night-time concrete pour with a pump truck and compactors" loading="lazy" width="400" height="300">
-        </button>
-      </div>
+        <div class="section-head center reveal">
+          <p class="eyebrow">On site</p>
+          <h2>Project Gallery</h2>
+        </div>
+        <div class="gallery featured">
+          <button type="button" class="gallery-item reveal">
+            <img src="images/IMG-20251012-WA0018.jpg" alt="Concrete support columns beside steel plant structures" loading="lazy" width="400" height="300">
+            <span class="gallery-caption">Concrete support columns beside steel plant structures</span>
+          </button>
+          <button type="button" class="gallery-item reveal">
+            <img src="images/IMG-20251012-WA0026.jpg" alt="Concrete pump boom placing concrete on an industrial site" loading="lazy" width="400" height="300">
+            <span class="gallery-caption">Concrete pump boom placing concrete on an industrial site</span>
+          </button>
+          <button type="button" class="gallery-item reveal">
+            <img src="images/IMG-20251012-WA0039.jpg" alt="Underside of a reinforced concrete beam and slab structure" loading="lazy" width="400" height="300">
+            <span class="gallery-caption">Underside of a reinforced concrete beam and slab structure</span>
+          </button>
+          <button type="button" class="gallery-item reveal">
+            <img src="images/IMG-20251012-WA0069.jpg" alt="Crew working on a reinforced concrete retaining wall" loading="lazy" width="400" height="300">
+            <span class="gallery-caption">Crew working on a reinforced concrete retaining wall</span>
+          </button>
+          <button type="button" class="gallery-item reveal">
+            <img src="images/IMG-20251012-WA0062.jpg" alt="Night-time concrete pour with a pump truck and compactors" loading="lazy" width="400" height="300">
+            <span class="gallery-caption">Night-time concrete pour with a pump truck and compactors</span>
+          </button>
+        </div>
         <div class="center">
           <a href="projects.html" class="btn">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner reveal">
+        <div>
+          <h2>Planning a project?</h2>
+          <p>Talk to us about your next civil works, from foundations to full builds.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="tel:+27827804051" class="btn">Call 082 780 4051</a>
+          <a href="contact.html" class="btn btn-ghost">Send a Message</a>
         </div>
       </div>
     </section>
