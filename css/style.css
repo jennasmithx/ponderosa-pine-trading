@@ -376,46 +376,6 @@ strong {
   margin-top: 2rem;
 }
 
-/* Facts strip along the bottom of the hero */
-.stats {
-  display: flex;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.stat {
-  padding: 1.5rem 1rem 1.75rem 0;
-}
-
-.stat + .stat {
-  padding-left: 1.5rem;
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.stat strong {
-  display: block;
-  font-family: var(--font-display);
-  font-size: 2.4rem;
-  line-height: 1;
-  color: #fff;
-}
-
-.stat span {
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-@media (max-width: 560px) {
-  .stat + .stat {
-    padding-left: 1rem;
-  }
-
-  .stat strong {
-    font-size: 2rem;
-  }
-}
-
 /* Clients strip */
 .clients {
   background: var(--navy-900);
